@@ -5,6 +5,11 @@ import store from './store'
 
 Vue.config.productionTip = false
 
+Vue.component('green-btn'), {
+  name: 'green-btn',
+  template: '<button>ボタン</button>'
+}
+
 new Vue({
   router,
   store,
