@@ -28,6 +28,16 @@ export default {
   a {
     text-decoration: none;
   }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p {
+    margin: 0;
+  }
   .container {
     width: 80%;
     margin: 0 auto;
@@ -38,5 +48,9 @@ export default {
     -moz-osx-font-smoothing: grayscale;
     text-align: center;
     color: #2c3e50;
+  }
+
+  .bg-cream {
+    background: #f7f5f1;
   }
 </style>
