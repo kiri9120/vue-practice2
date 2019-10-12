@@ -1,5 +1,12 @@
 module.exports = {
    outputDir: 'docs',
    assetsDir: './',
-   publicPath: './'
+   publicPath: './',
+   configureWebpack: {
+      resolve: {
+         alias: {
+           'vue$': 'vue/dist/vue.esm.js'
+         }
+       }
+   }
 }
