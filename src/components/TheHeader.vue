@@ -84,31 +84,4 @@
          margin: 0 10px;
       }
    }
-
-   .btn {
-      display: inline-block;
-      color: #fff;
-      text-decoration: none;
-      box-sizing: border-box;
-
-      &:hover {
-         opacity: 0.8;
-      }
-
-      &.btn-small {
-         padding: 10px;
-         width: 177px;
-      }
-
-      &.btn-orange {
-         background: orange;
-      }
-      &.btn-green {
-         background: #82d055;
-      }
-   }
-
-   .icon {
-      margin-right: 10px;
-   }
 </style>
